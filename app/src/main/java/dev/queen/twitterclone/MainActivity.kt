@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         var winn = Tweets("", "WollyMain","@wolly", "I did not stutter.\n" +
                 "I said what I said.", "", "5", "", "500", "", "6", "")
         var george = Tweets("", "George", "@master_chief", "Feminists watching Caroline Mutoko being roasted on twitter.", "", "600", "", "5000", "", "500", "")
-        var caroM = Tweets("", "Caro", "@mutuko", "Feminists watching Caroline Mutoko being roasted on twitter.", "", "600", "", "5000", "", "500", "")
+        var caroM = Tweets("", "Caro", "@mutuko", "Feminists watching Caroline Mutoko.\n" + "being roasted on twitter." , "", "600", "", "5000", "", "500", "")
         var caro = Tweets("", "ManStivo", "@stivo_man", "\uD83D\uDC64: will you ever stop loving BTS ? \n" +
                 "Me:", "", "600", "", "50", "", "500", "")
 

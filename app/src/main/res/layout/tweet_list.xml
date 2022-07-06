@@ -9,7 +9,7 @@
         android:layout_width="409dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="50dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -76,8 +76,8 @@
 
             <TextView
                 android:id="@+id/tvFav"
-                android:layout_width="19dp"
-                android:layout_height="29dp"
+                android:layout_width="48dp"
+                android:layout_height="28dp"
                 android:layout_marginTop="4dp"
                 android:text="6"
                 android:textSize="15dp"
@@ -102,7 +102,7 @@
                 android:layout_width="37dp"
                 android:layout_height="35dp"
                 android:textSize="10dp"
-                app:layout_constraintEnd_toStartOf="@+id/tvShare"
+                app:layout_constraintEnd_toStartOf="@+id/tvFav"
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toEndOf="@+id/tvRetweet"
                 app:layout_constraintTop_toTopOf="@+id/imgRetweet"
@@ -124,14 +124,14 @@
                 android:layout_height="41dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"
-                app:layout_constraintStart_toEndOf="@+id/tvShare"
+                app:layout_constraintStart_toEndOf="@+id/tvFav"
                 app:layout_constraintTop_toTopOf="@+id/imgFav"
                 app:srcCompat="@drawable/ic_baseline_share_24" />
 
             <TextView
                 android:id="@+id/tvComment"
-                android:layout_width="19dp"
-                android:layout_height="29dp"
+                android:layout_width="48dp"
+                android:layout_height="28dp"
                 android:layout_marginTop="4dp"
                 android:text="5"
                 android:textSize="15dp"
@@ -142,8 +142,8 @@
 
             <TextView
                 android:id="@+id/tvRetweet"
-                android:layout_width="19dp"
-                android:layout_height="29dp"
+                android:layout_width="48dp"
+                android:layout_height="28dp"
                 android:layout_marginTop="4dp"
                 android:text="0"
                 android:textSize="15dp"
