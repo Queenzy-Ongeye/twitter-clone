@@ -10,6 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TwitterClone">
         <activity
+            android:theme="@style/twitter"
             android:name=".SplashActivity"
             android:exported="true">
             <intent-filter>
